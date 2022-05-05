@@ -1,0 +1,1 @@
+insert into employee (id,NAME,DEP,ROLE) values(101,'Rini','Java','Trainee');
