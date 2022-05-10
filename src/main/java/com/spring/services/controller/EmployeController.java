@@ -50,4 +50,10 @@ public class EmployeController {
 
        
    }
+
+   //getEmployeName
+   @GetMapping("/employes/byname/{name}")
+   public Employee getEmployeByName(@PathVariable("name") String name){
+       return employeService.getEmployeByName(name);
+   }
 }

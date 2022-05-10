@@ -6,7 +6,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
 @Table(name="employee")
+
 public class Employee {
+   
     @Id
 	
 	private Long id;
@@ -17,7 +19,6 @@ public class Employee {
 	@Column(name="ROLE",nullable=false)
 	private String role;
 	
-
     public Employee() {
     }
 
@@ -70,5 +71,6 @@ public class Employee {
             "}";
     }
 	
+    
     
 }

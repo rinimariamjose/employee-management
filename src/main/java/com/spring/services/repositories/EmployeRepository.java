@@ -7,5 +7,6 @@ import com.spring.services.entites.Employee;
 
 @Repository
 public interface EmployeRepository extends JpaRepository<Employee,Long> {
-
+    
+    Employee findEmployeByName(String name);
 }

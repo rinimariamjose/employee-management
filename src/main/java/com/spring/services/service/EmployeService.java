@@ -40,4 +40,9 @@ public class EmployeService {
         }
     }
 
+
+    //getEmployeByName
+    public Employee getEmployeByName(String name){
+        return employeRepository.findEmployeByName(name);
+    }
 }
