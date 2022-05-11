@@ -1,7 +1,6 @@
 package com.spring.services.entites;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-
 import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
@@ -10,7 +9,6 @@ import javax.persistence.Table;
 public class Employee {
    
     @Id
-	
 	private Long id;
 	@Column(name="NAME",nullable=false)
 	private String name;
